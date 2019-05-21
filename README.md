@@ -1,2 +1,3 @@
 # text-classification-cnn
-基于cnn的文本分类
+基于CNN和Tensorflow的文本分类
+
