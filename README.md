@@ -6,4 +6,4 @@
 ![result1](images/result1.png)
 
 **从键盘输入**  
-![result2](images/result1.png)
+![result2](images/result2.png)
