@@ -1,7 +1,7 @@
 # text-classification-cnn  
 基于CNN和Tensorflow的文本分类
 
-### 结果预览  
+## 结果预览  
 **从文件读取**  
 ![result1](images/result1.png)
 
