@@ -27,7 +27,6 @@ class Config(object):
     learning_rate = 1e-3  # 学习率
 
     batch_size = 64  # 每批训练大小
-    num_epochs = 3  # 最大的epoch(所有样本训练一次)
     max_epochs = 10  # 最大的epoch(所有样本训练一次)
 
     print_per_batch = 100  # 每迭代多少次打印loss和准确率

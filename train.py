@@ -90,7 +90,7 @@ def train():
     require_improvement = 1000  # 如果超过1000轮未提升，提前结束训练
 
     flag = False
-    for epoch in range(config.num_epochs):
+    for epoch in range(config.max_epochs):
         print('Epoch:', epoch + 1)
         batch_train = batch_iter(x_train, y_train, config.batch_size)
         for x_batch, y_batch in batch_train:
