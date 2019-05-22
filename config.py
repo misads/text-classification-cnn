@@ -21,7 +21,7 @@ class Config(object):
     num_filters = 256  # 卷积核数目
     kernel_size = 5  # 卷积核尺寸
 
-    hidden_dim = 128  # 全连接层神经元数（一般设为256和num_classes之间的64的倍数）
+    hidden_dim = 512  # 全连接层神经元数（一般设为256和num_classes之间的64的倍数）
 
     dropout_keep_prob = 0.5  # dropout比例,keep_prob= 1 - dropout_rate
     learning_rate = 1e-3  # 学习率
