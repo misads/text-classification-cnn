@@ -84,7 +84,7 @@ python test.py -p data/test_small.txt
 ### Tensorboard   
 　　使用tensoroard查看可视化结果：  
 ```bash
-tensorboard --logdir=tensorboardd/textcnn 
+tensorboard --logdir=tensorboard/textcnn 
 ```
 
 　　在测试集准确率约79%左右(总共1258个分类类别)。　　
