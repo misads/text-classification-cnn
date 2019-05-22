@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 from __future__ import print_function
@@ -13,10 +12,8 @@ import tensorflow as tf
 import tensorflow.keras as kr
 from sklearn import metrics
 
-#from cnn_model import TextCNN
 from model import TextCNN
 from config import Config
-#from data.cnews_loader import read_vocab, read_category, batch_iter, process_file, build_vocab
 from file_reader import read_vocab, read_category, batch_iter, process_file, build_vocab
 
 
@@ -132,6 +129,7 @@ def train():
                 break  # 跳出循环
         if flag:  # 同上
             break
+
 
 if __name__ == '__main__':
 
