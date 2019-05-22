@@ -12,7 +12,7 @@
 ### Requirments
 
   -  硬件: GTX 960 GPU. 8GB以上内存.
-  -  软件: Ubuntu 16.04, CUDA 9.1, 
+  -  软件: Ubuntu 16.04, CUDA 9.1, Python 3.5.
     
   - Python package  
      -   ```pip install tensorflow```  
