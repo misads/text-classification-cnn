@@ -10,7 +10,7 @@ from datetime import timedelta
 import numpy as np
 import tensorflow as tf
 import tensorflow.keras as kr
-from sklearn import metrics
+# from sklearn import metrics
 
 from model import TextCNN
 from config import Config

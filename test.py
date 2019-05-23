@@ -17,7 +17,7 @@ import argparse
 def test_file(path):
     contents = []
     from file_reader import native_content
-    with open(path, 'r') as f:
+    with open(path, 'r', encoding='utf-8') as f:
         list1 = f.readlines()
         for i in list1:
             sentence = i.rstrip('\n')

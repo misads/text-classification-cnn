@@ -29,9 +29,6 @@ class TextCNN(object):
     def cnn(self):
         """CNN模型"""
         # 词向量映射
-        """
-          不太理解
-        """
         with tf.device('/cpu:0'):
             embedding = tf.get_variable('embedding', [self.config.vocab_size, self.config.embedding_dim])  # 5000×64
             embedding_inputs = tf.nn.embedding_lookup(embedding, self.input_x)

@@ -86,7 +86,7 @@ def read_category():
     """读取分类"""
     config = Config()
     categories = []
-    with open(config.categories_dir, 'r') as f:
+    with open(config.categories_dir, 'r', encoding='utf-8') as f:
         list1 = f.readlines()
         for s in list1:
             categories.append(s.strip())

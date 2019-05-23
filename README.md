@@ -1,5 +1,9 @@
 # text-classification-cnn  
-基于CNN和Tensorflow的文本分类
+基于CNN和Tensorflow的**中文**文本分类  
+
+## Blog
+
+　　[项目博客文章](http://www.xyu.ink/972.html)(包含网络详细结构图解)  
 
 ## 结果预览  
 **从文件读取**  
